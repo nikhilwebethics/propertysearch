@@ -128,7 +128,7 @@ const Home = () => {
                         <>
                             <div className="listcard">
                                 <div className="propertyimg">
-                                    <img src={res.image} />
+                                    <img src={res.image} alt="img" />
                                 </div>
                                 <div className="bottom">
                                     <p className="location"><b>Location are </b>{res.location}</p>

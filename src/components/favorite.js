@@ -81,7 +81,7 @@ const Favorite = () => {
                     <>
                         <div className="slistcard">
                             <div className="spropertyimg">
-                                <img src={res.image} />
+                                <img src={res.image} alt="img" />
                             </div>
                             <div className="sbottom">
                                 <p className="location"><b>Location are </b>{res.location} </p>
