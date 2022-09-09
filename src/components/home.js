@@ -9,7 +9,7 @@ const Home = () => {
     const [propertytype, setpropertytype] = useState();
     const [price, setprice] = useState();
     const [listproperty, setlistproperty] = useState([])
-
+    console.log(setpropertytype, setprice)
     useEffect(() => {
         if (data) {
             setlistproperty(data)
