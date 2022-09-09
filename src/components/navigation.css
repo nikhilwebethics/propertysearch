@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #c1475c;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+  }
+  li.tag {
+    padding-right: 150px;
+    font-size: 50px;
+}
+.navp {
+    /* padding-top: 10px; */
+    margin-top: 12px;
+    padding-right: 40px;
+}
+a.badge {
+    background: slategrey;
+}

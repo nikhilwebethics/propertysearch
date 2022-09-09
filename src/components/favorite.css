@@ -1,0 +1,53 @@
+.slistcard {
+    width: 18.22222222%;
+    height: 250px;
+    border: 1px solid;
+    padding: 33px 4px;
+    background: #ed9caa;
+    border-radius: 70px;
+}
+.spropertyimg img {
+    width: 200px;
+    height: 130px;
+}
+.sbottom {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.propertypostform {
+    text-align: initial;
+}
+.propertyposttitle {
+    text-align: initial;
+}
+.propertypostcard {
+
+    background: #45d7bd;
+    padding: 29px 63px;
+    border-radius: 30px;
+}
+input{
+    font-size: 20px;
+    border-radius: 9px;
+}
+.postformtable {
+    display: flex;
+    justify-content: space-between;
+}
+label {
+    font-size: 25px;
+    /* color: white; */
+    font-weight: 400;
+}
+.listingofproperty {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: normal;
+
+    gap: 10px;
+    gap: 10px 20px;
+    row-gap: 10px;
+    column-gap: 20px;
+  
+}
