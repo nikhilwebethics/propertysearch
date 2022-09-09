@@ -1,4 +1,4 @@
-import navigation from "./navigation.css"
+import "./navigation.css"
 import { Link } from "react-router-dom";
 const Navbar = () => {
     return (

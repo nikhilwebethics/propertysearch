@@ -1,5 +1,5 @@
 import { useState } from "react";
-import favorite from "./favorite.css"
+import "./favorite.css";
 
 const Favorite = () => {
     const [locationname, setlocationname] = useState("");

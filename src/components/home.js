@@ -1,7 +1,7 @@
-import axios from "axios"
+
 import { useEffect, useState } from "react"
 import data from "../data"
-import home from "./home.css"
+import "./home.css"
 
 const Home = () => {
 
