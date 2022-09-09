@@ -22,11 +22,12 @@ ul {
     padding-right: 150px;
     font-size: 50px;
 }
-.navp {
-    /* padding-top: 10px; */
-    margin-top: 12px;
-    padding-right: 40px;
-}
+
 p.badge {
     background: slategrey;
+}
+.navp {
+    margin-top: 70px;
+    padding-right: 40px;
+    text-decoration: none;
 }
