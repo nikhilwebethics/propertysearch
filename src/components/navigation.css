@@ -12,7 +12,7 @@ ul {
     float: left;
   }
   
-  li a {
+  li p {
     display: block;
     padding: 8px;
     color: white;
@@ -27,6 +27,6 @@ ul {
     margin-top: 12px;
     padding-right: 40px;
 }
-a.badge {
+p.badge {
     background: slategrey;
 }
