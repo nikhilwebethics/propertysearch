@@ -14,7 +14,7 @@ const Home = () => {
         if (data) {
             setlistproperty(data)
         }
-    }, [])
+    }, [data])
 
     const handleSearch = (event) => {
         let value = event.target.value.toLowerCase();
@@ -88,9 +88,9 @@ const Home = () => {
                         </div>
                         <select id="lang" onChange={handleSelect} value={city}>
                             <option value="">select</option>
-                            <option value="Delhi">Delhi</option>
-                            <option value="Chandigarh">Chandigarh</option>
-                            <option value="Haryana">Haryana</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="chandigarh">Chandigarh</option>
+                            <option value="haryana">Haryana</option>
                         </select>
                     </div>
                     <div className="selectcity filteris">
@@ -99,9 +99,9 @@ const Home = () => {
                         </div>
                         <select id="lang" onChange={handleSelecttype} value={propertytype}>
                             <option value="">select</option>
-                            <option value="House">House</option>
-                            <option value="PG">PG</option>
-                            <option value="Villa">Villa</option>
+                            <option value="house">House</option>
+                            <option value="pg">PG</option>
+                            <option value="villa">Villa</option>
 
                         </select>
                     </div>
