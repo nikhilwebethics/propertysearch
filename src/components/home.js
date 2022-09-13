@@ -14,7 +14,7 @@ const Home = () => {
         if (data) {
             setlistproperty(data)
         }
-    }, [data])
+    }, [])
 
     const handleSearch = (event) => {
         let value = event.target.value.toLowerCase();
