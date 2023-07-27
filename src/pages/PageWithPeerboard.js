@@ -64,7 +64,7 @@ class PageWithPeerboard extends React.Component {
     render() {
         return (
             <div>
-                <h1>pageWithPeerboard</h1>
+              
                 {this.state.error && this.state.error}
                 {this.state.loading && 'Loading...'}
                 <div ref={this.containerRef}></div>
